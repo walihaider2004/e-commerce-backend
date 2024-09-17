@@ -6,7 +6,7 @@ import {loginUser, registerUser,adminLogin }
 
  userRouter.post('/register', registerUser);
 
-//  userRouter.post('/login', loginUser);
+ userRouter.post('/login', loginUser);
  
  userRouter.post('/admin', adminLogin);
 
